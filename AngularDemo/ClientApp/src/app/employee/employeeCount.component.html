@@ -1,0 +1,19 @@
+<span>  Show : </span>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="All" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChange()">
+  <label class="form-check-label" for="flexRadioDefault1">
+    {{"All (" +all+ ")"}}
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="Male" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChange()">
+  <label class="form-check-label" for="flexRadioDefault2">
+    {{"Male (" +male+ ")"}}
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="Female" [(ngModel)]="selectedRadioButtonValue" (change)="onRadioButtonSelectionChange()">
+  <label class="form-check-label" for="flexRadioDefault3">
+    {{"Female (" +female+ ")"}}
+  </label>
+</div>
